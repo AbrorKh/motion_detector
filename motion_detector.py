@@ -44,8 +44,8 @@ while True:
         timesList.append(datetime.now())
 
     #Open webcam windows with specified names
-    cv2.imshow("Gray frame", gray)
-    cv2.imshow("Delta frame", deltaFrame)
+    #cv2.imshow("Gray frame", gray)
+    #cv2.imshow("Delta frame", deltaFrame)
     cv2.imshow("Thresh frame", threshFrame)
     cv2.imshow("Color frame", frame)
 
